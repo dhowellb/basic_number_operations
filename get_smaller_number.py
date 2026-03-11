@@ -22,3 +22,7 @@ def get_smaller_number():
     else:
         # Print that they are equal in yellow
         print("\033[93mBoth numbers are equal.\033[0m")
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the command we made at the top
+    get_smaller_number()
