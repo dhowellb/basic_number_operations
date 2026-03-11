@@ -20,3 +20,7 @@ def calculate_remainder():
     else:
         # Print an error message in red text so the user knows what went wrong
         print("\033[91mCannot divide by zero.\033[0m")
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the remainder command we made at the top
+    calculate_remainder()
