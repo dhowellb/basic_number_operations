@@ -27,3 +27,7 @@ def print_numbers_between():
     else:
         # If they type "5 and 5", there are no numbers between them! Print a yellow warning.
         print("\033[93mThere are no numbers between them.\033[0m")
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the printing command we made at the top
+    print_numbers_between()
