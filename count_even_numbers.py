@@ -17,3 +17,7 @@ def count_even_numbers():
 
     # After the loop finishes checking all 10 numbers, print the final count in green text
     print("\033[92mTotal even numbers:\033[0m", even_count)
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the counting command we made at the top
+    count_even_numbers()
