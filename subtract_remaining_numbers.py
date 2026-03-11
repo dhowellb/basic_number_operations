@@ -18,3 +18,7 @@ def subtract_remaining_numbers():
 
     # After the loop finishes all 9 times, print the final answer in green text
     print("\033[92mThe result is:\033[0m", total_result)
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the subtraction loop command we made at the top
+    subtract_remaining_numbers()
