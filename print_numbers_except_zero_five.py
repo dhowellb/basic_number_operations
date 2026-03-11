@@ -14,3 +14,7 @@ def print_numbers_except_zero_five():
         if last_digit != 0 and last_digit != 5:
             # If it passes both tests, print the number in green text
             print("\033[92m" + str(i) + "\033[0m")
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the printing command we made at the top
+    print_numbers_except_zero_five()
