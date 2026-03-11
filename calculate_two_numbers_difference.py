@@ -12,3 +12,7 @@ def calculate_difference():
 
     # Print the final subtracted answer in green text
     print("\033[92mThe difference is:\033[0m", total_difference)
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the subtraction command we made at the top
+    calculate_difference()
