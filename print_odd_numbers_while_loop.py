@@ -17,3 +17,7 @@ def print_odd_numbers():
         # Add 1 to our number so we can move on to check the next one.
         # (If we forget this step, the computer will check '0' forever and freeze!)
         current_number = current_number + 1
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the while loop command we made at the top
+    print_odd_numbers()
